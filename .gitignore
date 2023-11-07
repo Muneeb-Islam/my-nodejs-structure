@@ -1,6 +1,5 @@
 # dependencies
-/node_modules
-access.log
+/node_modules 
 package-lock.json
 .env
 .idea

@@ -1,10 +1,10 @@
 {
-  "name": "template-backend",
+  "name": "backend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=dev forever start ./bin/www.backend.template",
-    "prod": "NODE_ENV=prod forever start ./bin/www.backend.template",
+    "dev": "NODE_ENV=dev forever start ./bin/www.backend",
+    "prod": "NODE_ENV=prod forever start ./bin/www.backend",
     "start": "node ./bin/www.backend.template",
     "local": "nodemon",
     "clean": "rm -rf node_modules/"
